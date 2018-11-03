@@ -128,6 +128,10 @@ h3, blockquote {
   }
 }
 @media only screen and (max-width: 1024px) {
+  nav.site-nav .menu a {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
   nav.site-nav .menu a span {
     display: none;
   }
