@@ -70,6 +70,20 @@ section > div {
   padding-left: 1rem;
 }
 
+.go-top {
+  color: #efefef;
+  font-weight: bold;
+  text-align: center;
+}
+.go-top a {
+  color: #efefef;
+  text-decoration: none;
+  background-color: #202020;
+}
+.go-top a:hover {
+  color: #ef3737;
+}
+
 h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.75rem;
