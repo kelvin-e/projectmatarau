@@ -16,7 +16,13 @@ nav.site-nav {
   justify-content: space-between;
   align-items: center;
 }
-nav.site-nav a {
+nav.site-nav .menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+nav.site-nav .logo a, nav.site-nav .menu a {
   align-self: center;
   color: #efefef;
   text-decoration: none;
@@ -26,7 +32,7 @@ nav.site-nav a {
   font-weight: bold;
   line-height: 1.25rem;
 }
-nav.site-nav a span {
+nav.site-nav .menu a span {
   font-size: 1rem;
   margin-top: 1rem;
   color: #ef3737;
@@ -119,5 +125,10 @@ h3, blockquote {
   }
   h2 {
     font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  nav.site-nav .menu a span {
+    display: none;
   }
 }
