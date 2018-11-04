@@ -57,19 +57,19 @@ section > div {
 }
 
 #sec-tokomaru-bay {
-  background-image: url(../images/tokomaru-bay.jpg);
+  background-image: url(../images/sec1.jpg);
 }
 #sec-home {
-  background-image: url(../images/home.jpg);
+  background-image: url(../images/sec2.jpg);
 }
 #sec-research {
-  background-image: url(../images/research.jpg);
+  background-image: url(../images/sec3.jpg);
 }
 #sec-about {
-  background-image: url(../images/about.jpg);
+  background-image: url(../images/sec4.jpg);
 }
 #sec-contact {
-  background-image: url(../images/contact.jpg);
+  background-image: url(../images/sec5.jpg);
 }
 
 .logo {
